@@ -1,0 +1,19 @@
+#Image Augumentation:#
+When going through image we deal with the lot of irrelevant information like size. We dont want our model to change the the predition based on size and angle.
+Scale Invariance: We dont want size to have effect on predictions
+Rotation Invariance: Don't want to change predicition based on angle
+To want our deal with rotation invariance and translations invariance by adding new images to data. We expand the data set by data augumentation.
+It help to avoid overfitting.
+There is an inbuilt image transformation library in Pytorch
+
+#VGG Architecture# :
+* 3 by 3 convolutions
+* Broken up by 2 By 2 pooling layers
+* Finished with 3 fully connected layers
+
+#ResNet #
+Kinda like vgg but it is different numbers. They are many more layers. Before this no other architecture manage to have these number of layers.
+Super human achievement to classify images in Imagenet database
+
+
+
