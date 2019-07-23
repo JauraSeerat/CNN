@@ -23,7 +23,7 @@ For instance lets take an image of dog. We will observe that there are number of
 *Filters* are tensor which keep track of spatial information and learn to extract features like edge detection, smooth curve, etc. The major part is to detect edges in the images and these are detected by the filters. It help to filter out unwanted information to amplify images.  There are high-pass filters where the changes occur in intensity very quickly like from black to white pixel and vice-versa. 
 
 ![Filter Image](https://github.com/JauraSeerat/CNN/blob/master/Filters.gif)
-Image by [Convolutional Neural Networks (CNN, or ConvNets ...](https://medium.com/@phidaouss/convolutional-neural-networks-cnn-or-convnets-d7c688b0a207)
+Source [Convolutional Neural Networks (CNN, or ConvNets ...](https://medium.com/@phidaouss/convolutional-neural-networks-cnn-or-convnets-d7c688b0a207)
 
 Before going through the process further, lets stop for a bit and learn some terminologies.
 
@@ -32,7 +32,7 @@ Before going through the process further, lets stop for a bit and learn some ter
 * Fully-connected layer: Layer which accept input as vector and provides us an output.
 
 ![CNN Image](https://github.com/JauraSeerat/CNN/blob/master/CNN.png)
-Image by [https://www.researchgate.net/figure/Convolutional-neural-network-CNN-architecture_fig3_317268111]
+Source [https://www.researchgate.net/figure/Convolutional-neural-network-CNN-architecture_fig3_317268111]
 
 The filter convolue with the image to detect patterns and features. After the filter is passed over the image, a feature map is generated which can be taken through the activation function (example: ReLU) . Then we can add lot to filters to detect some more patterns and features. After passing image through convolutional layers and activation function. We pass it through pooling layer to see the pixels meet certain threshold so that they can carry on further. We just reiterate the process number of times of making convolutional layers, passing image to them , then process through activation function and pooling layer so that our image start detecting patterns. *Remember the more convolutional layers you include, the more complex patterns it will detect in terms of shape and color.*  Then finally the image is passed through fully connected layers and we will recieve an output. *It is always a good practice to add dropout layer in between linear layers to prevent overfitting.*
 
