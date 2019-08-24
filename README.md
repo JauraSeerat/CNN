@@ -38,4 +38,4 @@ The filter convolue with the image to detect patterns and features. After the fi
 
 So this was a basic understanding of how images are feed forwarded into CNN and how it detect patterns. Lets jump into the code. 
 
-### Follow up [this artcile](https://medium.com/@seeratpalkaur/cnn-maths-behind-cnn-910eab425b5d) to learn the maths behind CNN 
+### Follow up [this article](https://medium.com/@seeratpalkaur/cnn-maths-behind-cnn-910eab425b5d) to learn the maths behind CNN 
