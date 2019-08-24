@@ -36,4 +36,6 @@ Source [https://www.researchgate.net/figure/Convolutional-neural-network-CNN-arc
 
 The filter convolue with the image to detect patterns and features. After the filter is passed over the image, a feature map is generated which can be taken through the activation function (example: ReLU) . Then we can add lot to filters to detect some more patterns and features. After passing image through convolutional layers and activation function. We pass it through pooling layer to see the pixels meet certain threshold so that they can carry on further. We just reiterate the process number of times of making convolutional layers, passing image to them , then process through activation function and pooling layer so that our image start detecting patterns. *Remember the more convolutional layers you include, the more complex patterns it will detect in terms of shape and color.*  Then finally the image is passed through fully connected layers and we will recieve an output. *It is always a good practice to add dropout layer in between linear layers to prevent overfitting.*
 
-So this was a basic understanding of how images are feed forwarded into CNN and how it detect patterns. Lets jump into the code. Continued...
+So this was a basic understanding of how images are feed forwarded into CNN and how it detect patterns. Lets jump into the code. 
+
+### Follow up [this artcile](https://medium.com/@seeratpalkaur/cnn-maths-behind-cnn-910eab425b5d) to learn the maths behind CNN 
